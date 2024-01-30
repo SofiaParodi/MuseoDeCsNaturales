@@ -1,0 +1,46 @@
+:root {
+    --color-primary: #162A2C;
+    --color-secondary: #686867;
+    --text-primary: #F4EFE6;
+    --text-secondary: #E6B17E;
+    --font-primary: 'Quattrocento', serif;
+}
+
+/* n a v b a r  */
+
+.header__nav {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__logo {
+    height: 5dvh;
+
+}
+
+.nav__list {
+    list-style: none;
+    display: none;
+}
+
+/* h e r o */
+
+.header__hero {
+    width: 100dvw;
+    height: 90dvh;
+    /* después cambiar por background-image */
+    background-color: lightpink;  
+    padding: 0.1px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__title {
+    font-family: var(--font-primary);
+    color: var(--text-primary);
+    text-align: center;
+    padding: 0 5px;
+
+}
