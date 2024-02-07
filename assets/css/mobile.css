@@ -1,46 +1,137 @@
-:root {
-    --color-primary: #162A2C;
-    --color-secondary: #686867;
-    --text-primary: #F4EFE6;
-    --text-secondary: #E6B17E;
-    --font-primary: 'Quattrocento', serif;
+
+
+.header__container {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 /* n a v b a r  */
 
 .header__nav {
+    visibility: hidden;
+    height: 100dvh;
+    width: 100%;
+    position: absolute;
     background-color: var(--color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 2;
 }
 
-.nav__logo {
-    height: 5dvh;
-
+.header__nav-visible {
+    visibility: visible;
 }
 
 .nav__list {
     list-style: none;
-    display: none;
+    padding: 26px;
 }
+
+.list__item {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.item__link {
+    text-decoration: none;
+}
+
+
+.logo__img {
+    height: 5dvh;
+}
+
+.container__burger-menu {
+    align-self: flex-start;
+    position: absolute;
+    margin-left: 20px;
+}
+
+/* b u r g e r  m e n u */
+
+.burger-menu__open, .burger-menu__close {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+.burger-menu__close {
+    padding: 20px 26px;
+    font-size: 30px;
+}
+
+.open__icon, .close__icon {
+    color: var(--text-primary);
+}
+
+
 
 /* h e r o */
 
 .header__hero {
     width: 100dvw;
-    height: 90dvh;
-    /* después cambiar por background-image */
-    background-color: lightpink;  
+    height: 100dvh;
+    background-color: red;
     padding: 0.1px;
     display: flex;
     align-items: center;
 }
 
 .hero__title {
-    font-family: var(--font-primary);
     color: var(--text-primary);
     text-align: center;
     padding: 0 5px;
 
+}
+
+/* s e c t i o n */
+.main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+}
+
+/* c a r d s */
+.exhibition__card {
+    width: 90dvw;
+    height: 60dvh;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 16%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.exhibition__link {
+    text-decoration: none;
+}
+
+.exhibition__amphibians {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/amphibians.jpeg);
+    
+}
+
+.exhibition__arthropods {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/arthropods.jpeg);
+}
+
+.exhibition__paleontology {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/paleontology.jpeg);
+}
+
+.exhibition__sea {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(../img/deepOcean.jpeg);
+}
+
+.card__title {
+    align-self: flex-end;
+    font-size: 25px;
+    margin: 10px;
 }

@@ -1,3 +1,6 @@
+/* f o n t s  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quattrocento&display=swap');
+
 /* n o r m a l i z e */
 @import url(./normalize.css);
 
@@ -6,5 +9,18 @@
 @import url(./tablet.css) screen and (min-width: 768px);
 @import url(./desktop.css) screen and (min-width: 992px);
 
-/* f o n t s  */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quattrocento&display=swap');
+
+/* g e n e r a l  s e t t i n g s */
+
+:root {
+    --color-primary: #162A2C;
+    --color-secondary: #5e787b;
+    --text-primary: #F4EFE6;
+    --text-secondary: #E6B17E;
+    --font-primary: 'Quattrocento', serif;
+}
+
+* {
+    font-family: var(--font-primary);
+    color: var(--text-primary);
+}
