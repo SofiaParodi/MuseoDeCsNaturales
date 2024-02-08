@@ -1,5 +1,5 @@
 /* f o n t s  */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Quattrocento:wght@400;700&display=swap');
 
 /* n o r m a l i z e */
 @import url(./normalize.css);
@@ -14,13 +14,15 @@
 
 :root {
     --color-primary: #162A2C;
-    --color-secondary: #5e787b;
+    --color-secondary: #313c42;
     --text-primary: #F4EFE6;
     --text-secondary: #E6B17E;
     --font-primary: 'Quattrocento', serif;
+    --font-secondary: 'Libre Baskerville', serif;
 }
 
 * {
     font-family: var(--font-primary);
     color: var(--text-primary);
+    text-align: center;
 }

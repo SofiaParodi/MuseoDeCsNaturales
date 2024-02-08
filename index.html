@@ -35,13 +35,13 @@
       </div>
 
       <nav class="header__nav" id="header__nav">
-          <button class="burger-menu__close" id="burger-menu__close">
-            <i class="fa-solid fa-xmark close__icon"></i>
-          </button>
+        <button class="burger-menu__close" id="burger-menu__close">
+          <i class="fa-solid fa-xmark close__icon"></i>
+        </button>
 
         <ul class="nav__list">
           <li class="list__item">
-            <a href="#" class="item__link">Inicio</a>
+            <a href="./index.html" class="item__link">Inicio</a>
           </li>
           <li class="list__item">
             <a href="./pages/exhibitions.html" class="item__link"
@@ -51,19 +51,41 @@
           <li class="list__item">
             <a href="./pages/visits.html" class="item__link">Visitas</a>
           </li>
+          <li class="list__item">
+            <a href="./pages/museum.html" class="item__link">El Museo</a>
+          </li>
         </ul>
       </nav>
 
       <div class="header__hero">
         <h1 class="hero__title animate__animated animate__zoomIn">
-          Descubre el mundo que nos rodea
+          Descubre el fantástico mundo que nos rodea
         </h1>
+        <a href="./pages/visits.html">
+        <button class="hero__button animate__animated animate__zoomIn">
+          Compra tu ticket <i class="fa-solid fa-arrow-right button__icon"></i>
+        </button>
+      </a>
       </div>
     </header>
 
     <main>
       <section class="main__section">
-        <h2 class="section__title">Abierto hoy, de 10am - 17pm</h2>
+        <h2 class="section__title">Información general</h2>
+        <div class="section__info">
+          <p class="info__text">Abierto todos los días de 10 a 17pm. Nos encontramos en Av. Patricias Argentinas 480, C1405 Buenos Aires, Argentina</p>
+        </div>
+
+        <div class="section__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9625269735766!2d-58.44013132470475!3d-34.60510907295384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6d73459b81%3A0x8a7e8de50dd0046e!2sMuseo%20de%20Ciencias%20Naturales%20Bernardino%20Rivadavia!5e0!3m2!1ses!2suy!4v1707405828390!5m2!1ses!2suy"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map__iframe"
+          ></iframe>
+        </div>
       </section>
 
       <section class="main__section">
@@ -92,11 +114,23 @@
           </div>
         </a>
       </section>
-
-      <footer></footer>
     </main>
 
+    <footer class="footer">
+      <div class="footer_social-media">
+        <a href="https://www.instagram.com" class="social-media__link">
+          <i class="fa-brands fa-square-instagram link__icon"></i>
+        </a>
+        <a href="https://www.facebook.com" class="social-media__link">
+          <i class="fa-brands fa-square-facebook link__icon"></i>
+        </a>
+        <a href="https://twitter.com/" class="social-media__link">
+          <i class="fa-brands fa-square-twitter link__icon"></i>
+        </a>
+      </div>
 
+      <p>&copy; Todos los derechos reservados.</p>
+    </footer>
 
     <!-- f o n t  a w e s o m e -->
     <script
