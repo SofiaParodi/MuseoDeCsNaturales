@@ -8,4 +8,5 @@ openBtn.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
     nav.classList.remove("header__nav-visible");
+    
 })
