@@ -1,4 +1,4 @@
-/* i n d e x */
+/* I N D E X */
 
 .header__container {
     background-color: var(--color-primary);
@@ -87,7 +87,7 @@
 }
 
 .header__hero-index {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.326)), url(../img/index.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.326)), url(../img/index.jpg);
 }
 
 .hero__title {
@@ -103,6 +103,7 @@
     background-color: var(--text-secondary);
     padding: 10px;
     border: none;
+    text-decoration: none;
     border-radius: 18px;
 }
 
@@ -162,20 +163,20 @@
 }
 
 .exhibition__amphibians {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/amphibians.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/amphibians.jpg);
     
 }
 
 .exhibition__arthropods {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/arthropods.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/arthropods.jpg);
 }
 
 .exhibition__paleontology {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/paleontology.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/paleontology.jpg);
 }
 
 .exhibition__sea {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(../img/deepOcean.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(../img/deepOcean.jpg);
 }
 
 .card__title {
@@ -185,33 +186,11 @@
     font-weight: 400;
 }
 
-/* f o o t e r  */
-
-.footer {
-    height: 20dvh;
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-media__link {
-    text-decoration: none;
-}
-
-.link__icon {
-    color: var(--text-secondary);
-    font-size: 30px;
-    margin-right: 10px;
-    
-}
-
 /* V I S I T S */
 
 /* h e r o */
 .header__hero-visits {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)), url(../img/visits.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)), url(../img/visits.jpg);
 
 }
 
@@ -238,7 +217,7 @@
 
 /* h e r o */
 .header__hero-museum {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/museum2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/museum2.jpg);
 }
 
 /* s e c t i o n s */
@@ -251,7 +230,7 @@
 
 /* h e r o */
 .header__hero-exhibitions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/exhibitions.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/exhibitions.jpg);
 }
 
 /* c a r d */
@@ -303,7 +282,7 @@
 }
 
 .info__title {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .info__room {
@@ -312,5 +291,27 @@
     border-radius: 15px;
     text-align: center;
     margin-bottom: 0;
+}
+
+/* f o o t e r  */
+
+.footer {
+    height: 20dvh;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media__link {
+    text-decoration: none;
+}
+
+.link__icon {
+    color: var(--text-secondary);
+    font-size: 30px;
+    margin-right: 10px;
+    
 }
 
