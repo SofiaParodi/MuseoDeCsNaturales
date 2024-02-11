@@ -1,85 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- a n i m a t e -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- f a v i c o n -->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- s t y l e s h e e t -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Exhibiciones - Museo de Ciencias Naturales</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header__container">
-          <div class="container__burger-menu">
-            <button class="burger-menu__open" id="burger-menu__open">
-              <i class="fa-solid fa-bars open__icon"></i>
-            </button>
-          </div>
-  
-          <figure>
-            <!-- falta comprimir el tamaño de la imágen -->
-            <img
-              src="../assets/img/logo.png"
-              alt="Silueta de una abeja."
-              class="logo__img"
-              loading="lazy"
-            />
-          </figure>
-        </div>
-  
-        <nav class="header__nav" id="header__nav">
-          <button class="burger-menu__close" id="burger-menu__close">
-            <i class="fa-solid fa-xmark close__icon"></i>
+      <div class="header__container">
+        <div class="container__burger-menu">
+          <button class="burger-menu__open" id="burger-menu__open">
+            <i class="fa-solid fa-bars open__icon"></i>
           </button>
-  
-          <ul class="nav__list">
-            <li class="list__item">
-              <a href="../index.html" class="item__link">Inicio</a>
-            </li>
-            <li class="list__item">
-              <a href="./exhibitions.html" class="item__link"
-                >Exhibiciones</a>
-            </li>
-            <li class="list__item">
-              <a href="./visits.html" class="item__link">Visitas</a>
-            </li>
-            <li class="list__item">
-              <a href="./museum.html" class="item__link">El Museo</a>
-            </li>
-          </ul>
-        </nav>
-  
-        <div class="header__hero">
-          <h1 class="hero__title animate__animated animate__zoomIn">
-            Exhibiciones
-          </h1>
         </div>
-      </header>
-    
 
-      <footer class="footer">
-        <div class="footer_social-media">
-          <a href="https://www.instagram.com" class="social-media__link">
-            <i class="fa-brands fa-square-instagram link__icon"></i>
-          </a>
-          <a href="https://www.facebook.com" class="social-media__link">
-            <i class="fa-brands fa-square-facebook link__icon"></i>
-          </a>
-          <a href="https://twitter.com/" class="social-media__link">
-            <i class="fa-brands fa-square-twitter link__icon"></i>
-          </a>
+        <figure>
+          <!-- falta comprimir el tamaño de la imágen -->
+          <img
+            src="../assets/img/logo.png"
+            alt="Silueta de una abeja."
+            class="logo__img"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+
+      <nav class="header__nav" id="header__nav">
+        <button class="burger-menu__close" id="burger-menu__close">
+          <i class="fa-solid fa-xmark close__icon"></i>
+        </button>
+
+        <ul class="nav__list">
+          <li class="list__item">
+            <a href="../index.html" class="item__link">Inicio</a>
+          </li>
+          <li class="list__item">
+            <a href="./exhibitions.html" class="item__link">Exhibiciones</a>
+          </li>
+          <li class="list__item">
+            <a href="./visits.html" class="item__link">Visitas</a>
+          </li>
+          <li class="list__item">
+            <a href="./museum.html" class="item__link">El Museo</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__hero header__hero-exhibitions">
+        <h1 class="hero__title animate__animated animate__zoomIn">
+          Exhibiciones
+        </h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/reptile.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-reptiles">
+            <h2 class="info__title">Anfibios y reptiles</h2>
+            <p class="info__description">
+              Ricas infografías, ejemplares conservados y calcos, permiten
+              conocer la gran diversidad de sapos, ranas, tortugas, yacarés,
+              lagartos y serpientes que habitan en nuestro país. Entre los
+              varios sectores que componen esta sala puede observarse una gran
+              vitrina ambientada donde se muestran interesantes adaptaciones a
+              diversos modos de vida.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA B-04</p>
+          </div>
         </div>
-  
-        <p>&copy; Todos los derechos reservados.</p>
-      </footer>
-  
-      <!-- f o n t  a w e s o m e -->
-      <script
-        src="https://kit.fontawesome.com/09619394e8.js"
-        crossorigin="anonymous"
-      ></script>
-  
-      <!-- m a i n . j s -->
-      <script src="/assets/js/main.js"></script>
-</body>
+      </section>
+
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/butterfly.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-arthropods">
+            <h2 class="info__title">Artrópodos</h2>
+            <p class="info__description">
+              En esta sala se pueden conocer los distintos grupos de insectos,
+              ciempiés, arañas y cangrejos, a través de infografías y ricas
+              colecciones. Modelos a gran escala muestran el vuelo, las
+              adaptaciones del aparato bucal y las patas de estas especies.
+              Importantes infografías muestran interesantes características
+              sobre distintos aspectos de su biología.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA B-02</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/birds.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-birds">
+            <h2 class="info__title">Aves</h2>
+            <p class="info__description">
+              Un innovador recorrido, visual y acústico, de las diversas aves
+              que habitan los distintos ambientes de la Argentina. En otros
+              puede observarse una gran vitrina dedicada a la sistemática de las
+              aves argentinas. Allí se presentan, ordenadas de manera
+              taxonómica, un total de 230 especies y se ofrece información de
+              cada una de las familias presentes en nuestro país.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA B-03</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/geology.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-geology">
+            <h2 class="info__title">Geología</h2>
+            <p class="info__description">
+              En esta gran sala pueden apreciarse diversos bloques temáticos: el
+              módulo Atlas Ambiental, diferentes tipos de minerales y rocas,
+              infografías con temas como la estructura interna de la Tierra,
+              tectónica de placas, deriva continental y otros. El Planetario
+              ofrece la posibilidad de conocer nuestro cielo y las
+              constelaciones.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA A-07</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/paleontology.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-paleontology">
+            <h2 class="info__title">Paleontología</h2>
+            <p class="info__description">
+              Una de las salas más importantes de América Latina, en cuanto a
+              cantidad y calidad de material original exhibido. Impactan los
+              calcos de dinosaurios descubiertos en territorio patagónico, por
+              investigadores del Museo. Las vitrinas laterales e infografías
+              permiten apreciar la evolución de la vida en la tierra de diversos
+              grupos de animales y plantas, como el proceso de fosilización de
+              estas últimas.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA A-03</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="section__card">
+          <div class="card__container">
+            <figure>
+              <img
+                src="../assets/img/octopus.png"
+                alt=""
+                class="container__image"
+              />
+            </figure>
+          </div>
+
+          <div class="card__info card__info-sea">
+            <h2 class="info__title">Misterios del Mar</h2>
+            <p class="info__description">
+              En esta intrigante sala, los visitantes se sumergen en un ambiente
+              cautivador que recrea la profundidad del océano. Esculturas y
+              exhibiciones detalladas representan criaturas marinas misteriosas
+              y leyendas submarinas. La iluminación tenue y efectos de sonido
+              sutiles crean una atmósfera envolvente. Una experiencia fascinante
+              que invita a explorar las maravillas desconocidas que yacen en las
+              profundidades del vasto y enigmático mundo marino.
+            </p>
+            <p class="info__room">PLANTA ALTA, SALA A-04</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_social-media">
+        <a href="https://www.instagram.com" class="social-media__link">
+          <i class="fa-brands fa-square-instagram link__icon"></i>
+        </a>
+        <a href="https://www.facebook.com" class="social-media__link">
+          <i class="fa-brands fa-square-facebook link__icon"></i>
+        </a>
+        <a href="https://twitter.com/" class="social-media__link">
+          <i class="fa-brands fa-square-twitter link__icon"></i>
+        </a>
+      </div>
+
+      <p>&copy; Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- f o n t  a w e s o m e -->
+    <script
+      src="https://kit.fontawesome.com/09619394e8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- m a i n . j s -->
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>

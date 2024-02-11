@@ -207,7 +207,7 @@
     
 }
 
-/* v i s i t s */
+/* V I S I T S */
 
 /* h e r o */
 .header__hero-visits {
@@ -234,7 +234,7 @@
     font-weight: 600;
 }
 
-/* m u s e u m */
+/* M U S E U M */
 
 /* h e r o */
 .header__hero-museum {
@@ -246,3 +246,71 @@
     width: 90dvw;
     border-radius: 15px;
 }
+
+/* E X H I B I T I O N S */
+
+/* h e r o */
+.header__hero-exhibitions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/exhibitions.jpeg);
+}
+
+/* c a r d */
+
+.section__card {
+    width: 95dvw;
+}
+
+.card__container {
+    height: 70dvh;
+    background-color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container__image {
+    width: 100%;
+}
+
+.card__info {
+    padding: 20px;
+}
+
+.card__info-reptiles {
+    background-color: rgb(40, 75, 40);
+}
+
+.card__info-arthropods {
+    background-color: rgb(214, 128, 128);
+}
+
+.card__info-birds {
+    background-color: rgb(202, 126, 98);
+}
+
+.card__info-geology {
+    background-color: rgb(72, 50, 92);
+}
+
+.card__info-paleontology {
+    background-color: rgb(52, 45, 39);
+}
+
+.card__info-sea {
+    background-color: rgb(21, 30, 67);
+}
+
+.info__title {
+    font-size: 30px;
+}
+
+.info__room {
+    background-color: rgba(0, 0, 0, 0.162);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
