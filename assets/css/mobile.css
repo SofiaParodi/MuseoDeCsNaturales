@@ -26,11 +26,14 @@
 .header__nav-visible {
     visibility: visible;
     position: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav__list {
     list-style: none;
-    padding-left: 26px;
+    text-align: end;
+    padding-right: 26px;
 }
 
 .list__item {
@@ -48,9 +51,9 @@
 }
 
 .container__burger-menu {
-    align-self: flex-start;
+    align-self: flex-end;
     position: absolute;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* b u r g e r  m e n u */
@@ -64,12 +67,13 @@
 .burger-menu__close {
     padding: 20px 26px;
     font-size: 30px;
+    align-self: flex-end;
+    
 }
 
 .open__icon, .close__icon {
     color: var(--text-primary);
 }
-
 
 
 /* h e r o */
