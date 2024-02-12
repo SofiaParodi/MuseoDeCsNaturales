@@ -122,6 +122,7 @@
 }
 
 .section__title {
+    font-size: 27px;
     font-family: var(--font-secondary);
     text-align: center;
     color: var(--text-secondary);
@@ -130,16 +131,13 @@
 .section__text {
     text-align: center;
     margin-top: 0;
+    font-size: 18px;
 }
 
 /* g e n e r a l  i n f o */
 
-.info__text {
-    margin-top: 0;
-    text-align: center;
-}
 
-.map__iframe{
+.section__map {
     height: 50dvh;
     width: 90dvw;
     margin-bottom: 10px;
@@ -196,17 +194,19 @@
 
 /* i n f o */
 
-.info__title {
+.section__subtitle {
     margin-bottom: 10px;
     margin-top: 0;
     text-align: center;
+    font-size: 25px;
 }
 
-.info__important-text {
+.section__important-text {
     padding: 15px;
     background-color: var(--color-primary);
     border-radius: 15px;
     text-align: center;
+    
 }
 
 .text__link {
@@ -254,7 +254,7 @@
 }
 
 .card__info {
-    padding: 20px;
+    padding: 15px;
 }
 
 .card__info-reptiles {
@@ -282,11 +282,18 @@
 }
 
 .info__title {
+    font-size: 27px;
+    text-align: center;
+}
+
+.info__description {
     font-size: 20px;
+    text-align: center;
 }
 
 .info__room {
     background-color: rgba(0, 0, 0, 0.162);
+    font-size: 20px;
     padding: 15px;
     border-radius: 15px;
     text-align: center;
