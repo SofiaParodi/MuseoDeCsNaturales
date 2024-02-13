@@ -1,5 +1,9 @@
-/* I N D E X */
+/* n a v b a r */
+.list__item {
+    margin-bottom: 25px;
+}
 
+/* I N D E X */
 .section__map {
     width: 82dvw;
 }
@@ -25,7 +29,7 @@
 }
 
 .container__image {
-    height: 70dvh;
+    width: 25dvw;
 }
 
 .card__info {
