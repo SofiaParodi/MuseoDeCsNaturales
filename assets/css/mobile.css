@@ -1,5 +1,3 @@
-/* I N D E X */
-
 .header__container {
     background-color: var(--color-primary);
     display: flex;
@@ -138,8 +136,9 @@
     font-size: 18px;
 }
 
-/* g e n e r a l  i n f o */
+/* I N D E X  */
 
+/* g e n e r a l  i n f o */
 
 .section__map {
     height: 50dvh;
@@ -186,48 +185,6 @@
     font-size: 25px;
     margin: 10px;
     font-weight: 400;
-}
-
-/* V I S I T S */
-
-/* h e r o */
-.header__hero-visits {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)), url(../img/visits.jpg);
-
-}
-
-/* i n f o */
-
-.section__subtitle {
-    margin-bottom: 10px;
-    margin-top: 0;
-    text-align: center;
-    font-size: 25px;
-}
-
-.section__important-text {
-    padding: 15px;
-    background-color: var(--color-primary);
-    border-radius: 15px;
-    text-align: center;
-    
-}
-
-.text__link {
-    font-weight: 600;
-}
-
-/* M U S E U M */
-
-/* h e r o */
-.header__hero-museum {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/museum2.jpg);
-}
-
-/* s e c t i o n s */
-.section__img {
-    width: 90dvw;
-    border-radius: 15px;
 }
 
 /* E X H I B I T I O N S */
@@ -304,6 +261,48 @@
     margin-bottom: 0;
 }
 
+/* V I S I T S */
+
+/* h e r o */
+.header__hero-visits {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)), url(../img/visits.jpg);
+
+}
+
+/* i n f o */
+
+.section__subtitle {
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section__important-text {
+    padding: 15px;
+    background-color: var(--color-primary);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.text__link {
+    font-weight: 600;
+}
+
+/* M U S E U M */
+
+/* h e r o */
+.header__hero-museum {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/museum2.jpg);
+}
+
+/* s e c t i o n s */
+.section__img {
+    width: 90dvw;
+    border-radius: 15px;
+}
+
 /* f o o t e r  */
 
 .footer {
@@ -325,4 +324,3 @@
     margin-right: 10px;
     
 }
-

@@ -1,0 +1,42 @@
+/* I N D E X */
+
+.section__map {
+    width: 82dvw;
+}
+
+.section__row {
+    display: flex;
+}
+
+.exhibition__card {
+    width: 40dvw;
+    height: 30dvh;
+    margin: 10px;
+}
+
+/* E X H I B I T I O N S  */
+
+.section__card {
+    display: flex;
+}
+
+.card__container {
+    width: 50dvw;
+}
+
+.container__image {
+    height: 70dvh;
+}
+
+.card__info {
+    width: 50dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* M U S E U M */
+
+.section__img {
+    width: 50dvw;
+}
