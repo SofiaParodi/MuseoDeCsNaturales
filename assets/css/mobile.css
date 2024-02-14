@@ -49,7 +49,7 @@
 .container__burger-menu {
   align-self: flex-end;
   position: absolute;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 /* b u r g e r  m e n u */
