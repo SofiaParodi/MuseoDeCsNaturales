@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  width: 100%;
+  width: 100dvw;
   z-index: 1;
 }
 
@@ -14,7 +14,7 @@
 .header__nav {
   visibility: hidden;
   height: 100dvh;
-  width: 100%;
+  width: 100dvw;
   position: absolute;
   background-color: var(--color-primary);
   z-index: 2;
