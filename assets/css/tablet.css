@@ -5,3 +5,17 @@
 .section__text {
     font-size: 20px;
 }
+
+/* L A N D S C A P E */
+@media screen and (orientation: landscape) {
+    
+    /* C O N T A C T */
+    /* f o r m */
+    .form__input {
+        height: 5dvh;
+    }
+
+    .form__button {
+        height: 5dvh;
+    }
+}

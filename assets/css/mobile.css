@@ -1,161 +1,164 @@
 .header__container {
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 /* n a v b a r  */
 
 .header__nav {
-    visibility: hidden;
-    height: 100dvh;
-    width: 100%;
-    position: absolute;
-    background-color: var(--color-primary);
-    z-index: 2;
-
+  visibility: hidden;
+  height: 100dvh;
+  width: 100%;
+  position: absolute;
+  background-color: var(--color-primary);
+  z-index: 2;
 }
 
 .header__nav-visible {
-    visibility: visible;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
+  visibility: visible;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav__list {
-    list-style: none;
-    text-align: end;
-    padding-right: 26px;
+  list-style: none;
+  text-align: end;
+  padding-right: 26px;
 }
 
 .list__item {
-    font-size: 35px;
-    margin-bottom: 30px;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
 
 .item__link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .logo__img {
-    height: 5dvh;
+  height: 5dvh;
 }
 
 .container__burger-menu {
-    align-self: flex-end;
-    position: absolute;
-    margin-right: 20px;
+  align-self: flex-end;
+  position: absolute;
+  margin-right: 20px;
 }
 
 /* b u r g e r  m e n u */
 
-.burger-menu__open, .burger-menu__close {
-    background-color: transparent;
-    border: none;
-    font-size: 25px;
+.burger-menu__open,
+.burger-menu__close {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
 }
 
 .burger-menu__close {
-    padding: 20px 26px;
-    font-size: 30px;
-    align-self: flex-end;
-    
+  padding: 20px 26px;
+  font-size: 30px;
+  align-self: flex-end;
 }
 
-.open__icon, .close__icon {
-    color: var(--text-primary);
+.open__icon,
+.close__icon {
+  color: var(--text-primary);
 }
-
 
 /* h e r o */
 
 .header__hero {
-    width: 100dvw;
-    height: 100dvh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: .1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100dvw;
+  height: 100dvh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__hero-index {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.326)), url(../img/index.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.326)),
+    url(../img/index.jpg);
 }
 
 .hero__title {
-    font-family: var(--font-secondary);
-    font-weight: 400;
-    color: var(--text-primary);
-    text-align: center;
-    padding: 0 5px;
-
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--text-primary);
+  text-align: center;
+  padding: 0 5px;
 }
 
-.hero__button {
-    background-color: var(--text-secondary);
-    padding: 10px;
-    border: none;
-    text-decoration: none;
-    border-radius: 18px;
+.hero__button,
+.section__button {
+  background-color: var(--text-secondary);
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+  border-radius: 18px;
 }
 
 .button__icon {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* s e c t i o n */
+
 .main__section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-secondary);
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+  padding: 10px;
+}
+
+.main__section-contact {
+  padding-bottom: 30px;
 }
 
 .section__title {
-    font-size: 27px;
-    font-family: var(--font-secondary);
-    text-align: center;
-    color: var(--text-secondary);
+  font-size: 27px;
+  font-family: var(--font-secondary);
+  text-align: center;
+  color: var(--text-secondary);
 }
 
 .section__text {
-    text-align: center;
-    margin-top: 0;
-    font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+  font-size: 18px;
 }
 
 /* f o o t e r  */
 
 .footer {
-    height: 20dvh;
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 20dvh;
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media__link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link__icon {
-    color: var(--text-secondary);
-    font-size: 30px;
-    margin-right: 10px;
-    
+  color: var(--text-secondary);
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 /* I N D E X  */
@@ -163,210 +166,286 @@
 /* g e n e r a l  i n f o */
 
 .section__map {
-    height: 50dvh;
-    width: 90dvw;
-    margin-bottom: 10px;
-    border-radius: 15px;
+  height: 50dvh;
+  width: 90dvw;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 
 /* c a r d s */
 .exhibition__card {
-    width: 90dvw;
-    height: 60dvh;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 16%;
-    display: flex;
-    margin-bottom: 20px;
+  width: 90dvw;
+  height: 60dvh;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 16%;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .exhibition__link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .exhibition__amphibians {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/amphibians.jpg);
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(../img/amphibians.jpg);
 }
 
 .exhibition__arthropods {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/arthropods.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(../img/arthropods.jpg);
 }
 
 .exhibition__paleontology {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../img/paleontology.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(../img/paleontology.jpg);
 }
 
 .exhibition__sea {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(../img/deepOcean.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(../img/deepOcean.jpg);
 }
 
 .card__title {
-    align-self: flex-end;
-    font-size: 25px;
-    margin: 10px;
-    font-weight: 400;
+  align-self: flex-end;
+  font-size: 25px;
+  margin: 10px;
+  font-weight: 400;
 }
 
 /* E X H I B I T I O N S */
 
 /* h e r o */
 .header__hero-exhibitions {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/exhibitions.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)),
+    url(../img/exhibitions.jpg);
 }
 
 /* c a r d */
 
 .section__card {
-    width: 95dvw;
+  width: 95dvw;
 }
 
 .card__container {
-    height: 70dvh;
-    background-color: var(--text-primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
+  height: 70dvh;
+  background-color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container__image {
-    width: 100%;
+  width: 100%;
 }
 
 .card__info {
-    padding: 15px;
+  padding: 15px;
 }
 
 .card__info-reptiles {
-    background-color: rgb(40, 75, 40);
+  background-color: rgb(40, 75, 40);
 }
 
 .card__info-arthropods {
-    background-color: rgb(214, 128, 128);
+  background-color: rgb(214, 128, 128);
 }
 
 .card__info-birds {
-    background-color: rgb(202, 126, 98);
+  background-color: rgb(202, 126, 98);
 }
 
 .card__info-geology {
-    background-color: rgb(72, 50, 92);
+  background-color: rgb(72, 50, 92);
 }
 
 .card__info-paleontology {
-    background-color: rgb(52, 45, 39);
+  background-color: rgb(52, 45, 39);
 }
 
 .card__info-sea {
-    background-color: rgb(21, 30, 67);
+  background-color: rgb(21, 30, 67);
 }
 
 .info__title {
-    font-size: 27px;
-    text-align: center;
+  font-size: 27px;
+  text-align: center;
 }
 
 .info__description {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 .info__room {
-    background-color: rgba(0, 0, 0, 0.162);
-    font-size: 20px;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.162);
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 /* V I S I T S */
 
 /* h e r o */
 .header__hero-visits {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)), url(../img/visits.jpg);
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.615)),
+    url(../img/visits.jpg);
 }
 
 /* i n f o */
 
 .section__subtitle {
-    margin-bottom: 10px;
-    margin-top: 0;
-    text-align: center;
-    font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 25px;
 }
 
 .section__important-text {
-    padding: 15px;
-    background-color: var(--color-primary);
-    border-radius: 15px;
-    text-align: center;
-    
+  padding: 15px;
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  text-align: center;
 }
 
 .text__link {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* M U S E U M */
 
 /* h e r o */
 .header__hero-museum {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)), url(../img/museum2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.433)),
+    url(../img/museum2.jpg);
 }
 
 /* s e c t i o n s */
 .section__img {
-    width: 90dvw;
-    border-radius: 15px;
+  width: 90dvw;
+  border-radius: 15px;
 }
 
+/* C O N T A C T */
+/* h e r o  */
+.header__hero-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.244)),
+    url(../img/contactHero.jpg);
+}
+
+/* f o r m */
+.section__form,
+.section__success {
+  width: 85dvw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.149);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.section__form-invisible {
+  display: none;
+}
+
+.form__label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  height: 5dvh;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+.form__textarea {
+  resize: none;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+.form__button {
+  width: 25dvw;
+  height: 5dvh;
+  background-color: var(--text-secondary);
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+}
+
+/* s u c c e s s  m e s s a g e */
+.section__success {
+  text-align: center;
+  display: none;
+}
+
+.section__success-visible {
+  display: block;
+}
+
+.success__text {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.success__button {
+  font-size: 20px;
+}
 
 /* L A N D S C A P E */
 
 @media screen and (orientation: landscape) {
+  /* n a v b a r */
+  .list__item {
+    margin-bottom: 15px;
+  }
 
-    /* n a v b a r */
-    .list__item {
-        margin-bottom: 15px;
-    }
+  /* f o o t e r  */
+  .footer {
+    height: 35dvh;
+  }
 
+  /* I N D E X */
+  /* g e n e r a l  i n f o */
+  .section__map {
+    width: 60dvw;
+  }
 
-    /* f o o t e r  */
-    .footer {
-        height: 35dvh;
-    }
+  /* e x h i b i t i o n s  */
+  .section__row {
+    display: flex;
+  }
 
-    /* I N D E X */
-    /* g e n e r a l  i n f o */
-    .section__map {
-        width: 60dvw;
-    }
+  .exhibition__card {
+    width: 40dvw;
+    margin: 5px;
+  }
 
-    /* e x h i b i t i o n s  */
-    .section__row {
-        display: flex;
-    }
+  /* E X H I B I T I O N S */
+  /* c a r d */
+  .container__image {
+    width: 20dvw;
+  }
 
-    .exhibition__card {
-        width: 40dvw;
-        margin: 5px;
-    }
+  /* M U S E U M */
+  /* s e c t i o n */
+  .section__img {
+    width: 50dvw;
+  }
 
-    /* E X H I B I T I O N S */
-    /* c a r d */
-    .container__image {
-        width: 20dvw;
-    }
+  /* C O N T A C T */
+  /* f o r m */
+  .form__input {
+    height: 12dvh;
+  }
 
-    /* M U S E U M */
-    /* s e c t i o n */
-    .section__img {
-        width: 50dvw;
-    }
-
+  .form__button {
+    height: 12dvh;
+  }
 }
