@@ -40,6 +40,23 @@
 
 .item__link {
   text-decoration: none;
+  position: relative;
+}
+
+.item__link::after {
+  content: "";
+  position:absolute;
+  display: block;
+  height: 2px;
+  width: 0;
+  right: 0;
+  background-color: var(--text-primary);
+  transition: width 0.3s ease-out;
+  transform-origin: right;
+}
+
+.item__link:hover::after {
+  width: 100%;
 }
 
 .logo__img {
