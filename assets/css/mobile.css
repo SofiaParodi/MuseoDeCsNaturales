@@ -157,7 +157,7 @@
 }
 
 .section__text {
-  text-align: center;
+  text-align: justify;
   margin-top: 0;
   font-size: 18px;
 }
@@ -299,7 +299,7 @@
 
 .info__description {
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .info__room {
