@@ -123,6 +123,11 @@
   border: none;
   text-decoration: none;
   border-radius: 18px;
+  transition: background-color 1s ease;
+}
+
+.hero__button:hover, .section__button:hover {
+  background-color: var(--color-secondary-hover)
 }
 
 .button__icon {
@@ -394,6 +399,12 @@
   border: none;
   border-radius: 5px;
   align-self: center;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.form__button:hover {
+  background-color: var(--color-secondary-hover);
 }
 
 /* s u c c e s s  m e s s a g e */
